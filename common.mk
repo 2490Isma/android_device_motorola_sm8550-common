@@ -396,3 +396,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm8550-common/sm8550-common-vendor.mk)
+
+PRODUCT_SOONG_NAMESPACES += kernel/motorola/sm8550-modules/qcom/opensource/display-drivers
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom/wlan/qcwcn hardware/qcom/wlan/qcwcn/wpa_supplicant_8_lib
