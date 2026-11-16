@@ -16,3 +16,11 @@ cc_library_shared {
         "libqtivibratoreffect_headers",
     ],
 }
+
+cc_library_headers {
+    name: "libqtivibratoreffect_headers",
+    vendor: true,
+    export_include_dirs: [
+        "../../../../../vendor/qcom/opensource/vibrator/effect",
+    ],
+}
