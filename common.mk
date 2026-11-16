@@ -292,9 +292,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel/power-libperfmgr \
-    hardware/motorola \
-    hardware/qcom-caf/common/libqti-perfd-client
+    hardware/motorola
 
 # Telephony
 PRODUCT_PACKAGES += \
